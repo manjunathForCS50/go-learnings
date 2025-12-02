@@ -4,12 +4,11 @@ import (
 	"fmt"
 	// "io"
 	"os"
-
 	// "github.com/spf13/cobra"
 )
 
 func main() {
-	fmt.Println("Hello, world!");
+	fmt.Println("Hello, world!")
 	scanName()
 }
 
@@ -22,6 +21,9 @@ func scanName() {
 	}
 	fmt.Println("Hello, ", name)
 	os.WriteFile("./log.txt", []byte(name), 0644)
+	util()
+	utilOther()
+	handleArray()
 	// strWrtiter := io.StringWriter(os.Stdout)
 	// cobra.WriteStringAndCheck(strWrtiter, name)
 }
