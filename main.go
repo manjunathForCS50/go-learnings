@@ -24,6 +24,8 @@ func scanName() {
 	util()
 	utilOther()
 	handleArray()
+	dayOneMain()
+	dayTwoMain()
 	// strWrtiter := io.StringWriter(os.Stdout)
 	// cobra.WriteStringAndCheck(strWrtiter, name)
 }
