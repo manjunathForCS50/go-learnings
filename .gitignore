@@ -1,0 +1,7 @@
+*.exe
+*.txt
+*.log
+.DS_Store
+.vscode/
+go-learn
+go-learn.exe
