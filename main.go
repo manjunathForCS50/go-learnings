@@ -26,6 +26,11 @@ func scanName() {
 	handleArray()
 	dayOneMain()
 	dayTwoMain()
+	daythreeLearn()
+	var a = 10
+	var b = 15
+	swapValues(&a, &b)
+	addTen(&a)
 	// strWrtiter := io.StringWriter(os.Stdout)
 	// cobra.WriteStringAndCheck(strWrtiter, name)
 }
